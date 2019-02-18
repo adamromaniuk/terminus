@@ -6,7 +6,6 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.json",
     "precommit": "lint-staged",
     "test": "npm run test:e2e && npm run test:ut",
     "test:ut": "jest --config=jest.json",
